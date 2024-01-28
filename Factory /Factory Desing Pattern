@@ -1,0 +1,16 @@
+This design pattern helps in segreegating client from product by using factory class (abstract class)
+
+The basic idea is client need not know the internal crration of prodicts yet able to create the type of product as needed.
+Injecting a factory as an abstract over the product helps in decoupling client and product.
+
+So from client point of view we need only pass the product type to the factory and get the end product.
+This helps in reducing the effect on client whenever any changes are done to the product side, 
+
+All the logoc for selection of product is abstarcted from client and taken care by factory.
+
+For code refer to Code - Factory Design
+
+two vechicle classes (car and bike has been inherited from base class vehicle) 
+A factory class acts as intermediary between the client and product (vehicle) for abstarcting product creation.
+
+
